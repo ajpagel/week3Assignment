@@ -1,2 +1,2 @@
 # week3Assignment
-week 3 coding Assignment
+This is the week 3 coding Assignment that focuses on arrays and functions.
