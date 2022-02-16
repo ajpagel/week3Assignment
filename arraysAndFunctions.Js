@@ -69,7 +69,13 @@ let sums = arrayOfNumbers.reduce(function(accumulator, currentValue){
 });
 console.log(sums);
 
-//function greaterThan();
+function greaterThan(array){
+    if(array > 100){
+        return "true";
+    }
+    return "false";
+}
+console.log(greaterThan(sums));
 
 //10.Write a function that takes an array of numbers and 
 //returns the average of all the elements in the array.
