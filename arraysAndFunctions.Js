@@ -77,29 +77,54 @@ function greaterThan(array){
 }
 console.log(greaterThan(sums));
 
-//10.Write a function that takes an array of numbers and 
+//Write a function that takes an array of numbers and 
 //returns the average of all the elements in the array.
 
-//function takeAverage();
-//let avg= 
+function calculateAverage(array){
+    var total = 0;
+    var count = 0;
+    array.forEach(function(item, index) {
+        total += item;
+        count ++;
+    });
+    return total / count;
+} 
 
+console.log(calculateAverage(arrayOfNumbers));
 
 //11.Write a function that takes two arrays of numbers and returns 
 //true if the average of the elements in the first array is greater 
 //than the average of the elements in the second array.
 
-//function twoArrays();
+
+let arrayOne =[1,2,3,4,5];
+let arrayTwo=[1,1,2,3,4];
+function twoArrays(array1, array2){
+    if (array1 > array2){
+        return true;
+    }
+        return false;
+}
+
+console.log(twoArrays(arrayOne, arrayTwo));
 
 
 //12.Write a function called willBuyDrink that takes a boolean isHotOutside, 
 //and a number moneyInPocket, and returns true if it is hot outside and if 
 //moneyInPocket is greater than 10.50.
 
-//function willBuyDrink(isHotOutside, moneyInPocket){
-  //  if (isHotOutside && moneyInPocket > 10.50) { 
-    //    return true;
-//}
-//console.log (willBuyDrink(true, 11));
+
+function willBuyDrink(isHotOutside, moneyInPocket){
+    if (isHotOutside && (moneyInPocket > 10.50)){ 
+        return true;
+    }
+        return false;
+}
+
+console.log (willBuyDrink(true, 11));
 
 //13.Create a function of your own that solves a problem. 
 //In comments, write what the function does and why you created it
+
+
+
