@@ -136,5 +136,19 @@ console.log (willBuyDrink(true, 11));
 //13.Create a function of your own that solves a problem. 
 //In comments, write what the function does and why you created it
 
-//function lastProblem();
+function correctPin(a){
+    if (a === 2602){
+        return "You're in!";
+    }
+    return "Wrong Pin, Try again!"
+}
+console.log(correctPin(1359))
+
+
+//I created the function correctPin to accept an integer and return a message when the argument
+// is passed in to the function.
+//For this problem, I created a function that would return a message stating "You're in!"
+//if the correct pin was given. If the wrong pin is entered, they will receive the message 
+//saying "Wrong Pin, Try again".
+
 
