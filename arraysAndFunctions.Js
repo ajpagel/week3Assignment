@@ -51,6 +51,16 @@ function myWord(word, n){
 }
 console.log(myWord("Hello", 3));
 
+
+function repeatedWord(word, n){
+    let tempWord =" ";
+    for(let i=0; i < n; i++){
+        tempWord+= word;
+    }
+    return tempWord;
+}
+console.log(repeatedWord("Hello",3));
+
 //8.Write a function that takes two parameters, firstName and lastName, 
 //and returns a full name (the full name should be the first and the 
 //last name separated by a space.
@@ -126,5 +136,5 @@ console.log (willBuyDrink(true, 11));
 //13.Create a function of your own that solves a problem. 
 //In comments, write what the function does and why you created it
 
-
+//function lastProblem();
 
